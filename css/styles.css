@@ -1,9 +1,10 @@
 body {
   background: #d6e2f0;
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
-  height: 100vh;
+  height: 97vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,6 +23,29 @@ body {
   height: 288px;
   border-radius: 10px;
   margin: 16px;
+}
+.container-texts {
+  width: 288px;
+  height: 129px;
+  margin: 8px 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #1f3251;
+}
+.container-description {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7b879d;
+  margin-top: 16px;
+  width: 256px;
 }
 
 .attribution {

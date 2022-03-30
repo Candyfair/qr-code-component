@@ -1,15 +1,18 @@
+@use 'vars';
+
 body {
-  background: hsl(212, 45%, 89%);
+  background: vars.$color-light-grey;
+  font-family: vars.$font;
 }
 
 .container {
-  height: 100vh;
+  height: 97vh;
   display: flex;
   justify-content: center;
   align-items: center;
   
   &-main {    
-    background-color: hsl(0, 0%, 100%);
+    background-color: vars.$color-white;
     width: 320px;
     height: 497px;
     border-radius: 20px;
@@ -22,15 +25,43 @@ body {
     width: 288px;
     height: 288px;
     border-radius: 10px;
-    margin: 16px;
+    margin: vars.$margin;
   }
+
+  &-texts {
+   width: 288px; 
+   height: 129px;
+   margin: 8px vars.$margin;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  &-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: vars.$color-dark-blue;
+  }
+
+  &-description {
+    font-size: vars.$paragraph;
+    font-weight: 400;
+    color: vars.$color-greyish-blue;
+    margin-top: vars.$margin;
+    width: 256px;
+  }
+
 }
 
 // FOOTER
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px; 
+  text-align: center;
 
   & a {
-    color: hsl(228, 45%, 44%);
+    color: vars.$color-links;
   }
 }
