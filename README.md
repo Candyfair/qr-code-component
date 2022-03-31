@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Design comparison](https://www.frontendmentor.io/solutions/qr-code-component-made-with-flexbox-and-scss-By2pf1XQc)
 - Live Site URL: [https://qr-code-component-phi.vercel.app](https://qr-code-component-phi.vercel.app)
 
 ## My process
