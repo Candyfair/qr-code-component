@@ -1,5 +1,5 @@
 body {
-  background: #d6e2f0;
+  background: hsl(212deg, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   align-items: center;
 }
 .container-main {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   width: 320px;
   height: 497px;
   border-radius: 20px;
@@ -35,25 +35,25 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container-title {
+.container h1 {
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
-  color: #1f3251;
+  color: hsl(218deg, 44%, 22%);
 }
-.container-description {
+.container p {
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
-  color: #7b879d;
+  color: hsl(220deg, 15%, 55%);
   margin-top: 16px;
   width: 256px;
 }
 
-.attribution {
+footer {
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
-  color: #3e52a3;
+footer a {
+  color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */
